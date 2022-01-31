@@ -1,0 +1,10 @@
+[package]
+name = "rapier-issue-792"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rapier3d = { git = "https://github.com/dimforge/rapier.git", rev = "c4c549f21fb70222c95c49329f14c4f5a7e71149" }
+rapier_testbed3d = { git = "https://github.com/dimforge/rapier.git", rev = "c4c549f21fb70222c95c49329f14c4f5a7e71149" }
